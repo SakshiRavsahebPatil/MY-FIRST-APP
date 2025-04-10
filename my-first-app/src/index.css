@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* header file code */
+header{
+  padding: 20px;
+  background-color: rgb(211, 251, 210);
+  font-family: "Pacifico", cursive;
+  font-size:20px;
+}
+#resume{
+  color: rgb(255, 0, 38);
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.header-info{
+    color: indigo;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+
+/* body file code */
+/* #nav{
+  padding:10px; }
+h2{
+   background-color: cadetblue;
+  font-style: italic;
+}
+#ABC{
+  padding:15px;
+  background-color: rgb(241, 203, 241);
+  font-family: "Madimi One", sans-serif;
+} */
+
+
