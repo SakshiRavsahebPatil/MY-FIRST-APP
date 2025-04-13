@@ -11,6 +11,10 @@ import ClassCompBody from './ClassCompBody';
 import JSXTest from './JsxTest/JSXTest';
 import FragmentTest from './FragmentTest/FragmentTest';
 import WelcomeCompCall from './ComCall/Welcome';
+import ParentComp from './PropsTest/ParentComp';
+import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
+import StateInClassComp from './StateInClassComp/StateInClassComp';
+import StateInFunComp from './StateInClassComp/StateInFunComp';
 
 
 
@@ -34,7 +38,15 @@ function App() {
 
        {/* <FragmentTest/> */}
 
-       <WelcomeCompCall/>
+       {/* <WelcomeCompCall/> */}
+
+       {/* <ParentComp/> */}
+
+       {/* <ConditionalRendering/> */}
+
+       {/* <StateInClassComp/> */}
+
+       <StateInFunComp/>
     </>
   );
 }
