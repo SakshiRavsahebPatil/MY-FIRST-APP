@@ -15,7 +15,7 @@ import ParentComp from './PropsTest/ParentComp';
 import ConditionalRendering from './ConditionalRendering/ConditionalRendering';
 import StateInClassComp from './StateInClassComp/StateInClassComp';
 import StateInFunComp from './StateInClassComp/StateInFunComp';
-
+import Main from './RoutingTest/Main'
 
 
 function App() {
@@ -46,7 +46,9 @@ function App() {
 
        {/* <StateInClassComp/> */}
 
-       <StateInFunComp/>
+       {/* <StateInFunComp/> */}
+
+       <Main/>
     </>
   );
 }
