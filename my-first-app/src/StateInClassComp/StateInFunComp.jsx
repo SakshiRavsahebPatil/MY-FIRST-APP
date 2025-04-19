@@ -24,12 +24,12 @@ const StateInFunComp = () => {
       setCount(count+1);
     }
 
-
-    const updatePerson = ()=>{
-      changePerson (PrePerson =>(
-          {...prePerson, Name : 'Priya'}
-      ))
-    }
+// code incomplete hai
+    // const updatePerson = ()=>{
+    //   changePerson (PrePerson =>(
+    //       {...prePerson, Name : 'Priya'}
+    //   ))
+    // }
     return (
     <>
       <h1>State in Function Component</h1>
